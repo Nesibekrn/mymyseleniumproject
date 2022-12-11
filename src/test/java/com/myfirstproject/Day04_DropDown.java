@@ -26,6 +26,7 @@ public class Day04_DropDown {
        WebElement dropDownElement= driver.findElement(By.id("dropdown"));
         Select select= new Select(dropDownElement);
         select.selectByIndex(1);
+
     }
     @Test
     public void selectByValueTest(){
